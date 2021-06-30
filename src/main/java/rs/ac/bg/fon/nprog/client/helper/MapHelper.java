@@ -75,7 +75,7 @@ public class MapHelper {
      */
     
     public String vratiGrad(double x, double y){
-        
+        //Koriscenje JSON-a
         try {
            String path="https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat="+x+"&lon="+y;
            URL url = new URL(path);
